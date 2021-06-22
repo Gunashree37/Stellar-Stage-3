@@ -18,26 +18,15 @@ export default class StarMapScreen extends Component {
                 <SafeAreaView style={styles.droidSafeArea} />
                 <View style={{ flex: 0.3, marginTop: 20, alignItems: 'center' }}>
                     <Text style={styles.titleText}>Star Map</Text>
-                    <TextInput
-                        style={styles.inputStyle}
-                        placeholder="Enter your longitude"
-                        placeholderTextColor="white"
-                        onChangeText={(text) => {
-                            this.setState({
-                                longitude: text
-                            })
-                        }}
-                    />
-                    <TextInput
-                        style={styles.inputStyle}
-                        placeholder="Enter your latitude"
-                        placeholderTextColor="white"
-                        onChangeText={(text) => {
-                            this.setState({
-                                latitude: text
-                            })
-                        }}
-                    />
+                   
+
+
+
+
+
+
+
+
                 </View>
                 <WebView
                     scalesPageToFit={true}
